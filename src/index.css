@@ -1,0 +1,31 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 55px;
+    height: 100vh;
+    background-color: lightgrey;
+    transition: width 0.2s;
+}
+
+.sidebar:hover {
+    width: 180px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+.content {
+    margin-left: 55px;
+    padding: 20px;
+}
